@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  node:
+    build: ./
+    ports:
+      - "7676:7676"
