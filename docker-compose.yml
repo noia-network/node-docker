@@ -1,7 +1,9 @@
 version: "3"
 
 services:
-  node:
+  noia-node:
     build: ./
+    network_mode: "host"
     ports:
-      - "7676:7676"
+      - "8048:8048"
+      - "8058:8058"
